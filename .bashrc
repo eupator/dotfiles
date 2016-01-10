@@ -133,5 +133,6 @@ export purple="\e[0;35m"
 export unblk="\e[4;30m"
 export bldblue="\e[1;34m"
 
-PS1="$green---($coldblue\$(date \"+%H:%M\")$green)---
----($yellow\u@$cyan\h$green$white$smoothblue\\$):$green"
+PS1="$green┌─($yellow\u$white@$cyan\h$green)
+$green└─($coldblue\$(date \"+%H:%M\")$green)$yellow\\$:$green"
+
